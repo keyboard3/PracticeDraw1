@@ -26,7 +26,7 @@ public class Practice7DrawRoundRectView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-//        练习内容：使用 canvas.drawRoundRect() 方法画圆角矩形
+//        练习内容：使用 canvas.drawRoundRect() 方法画圆角矩形"
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         paint.setStyle(Paint.Style.FILL);
         RectF rectF = new RectF(200, 100, 400, 200);
